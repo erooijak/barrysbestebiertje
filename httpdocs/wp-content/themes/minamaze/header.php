@@ -21,10 +21,6 @@
 <![endif]-->
 
 <?php wp_head(); ?>
-
-<script type="text/javascript" src="//use.typekit.net/lvc3vkw.js"></script>
-<script type="text/javascript">try { Typekit.load(); } catch (e) { }</script>
-
 </head>
 
 <body <?php body_class(); ?><?php thinkup_bodystyle(); ?>>
