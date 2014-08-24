@@ -2399,26 +2399,6 @@ html[dir="rtl"] body.page .entry-thumbnail {float:right}
 
 /*ER: customization jwz */
 
-@font-face {
-    font-family: "ff-tisa-web-pro";
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-    font-family: "ff-tisa-web-pro", Helvetica, Arial, sans-serif !important;
-}
-
 .circular-image {
     width: 300px;
     height: 300px;
