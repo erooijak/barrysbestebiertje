@@ -21,12 +21,6 @@
 <?php fruitful_get_favicon(); ?>
 <!--[if lt IE 9]><script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script><![endif]-->
 <?php wp_head(); ?> 
-<script>
-    document.addEventListener("DOMContentLoaded", function(event)  {
-        var audio = new Audio('http://bbb.erooijak.simple-webhosting.eu/wp-content/uploads/2014/08/jerown-lowerquality.mp3');
-        audio.play();
-    });
-</script>
 </head>
 <body <?php 
 		$additional_body_classes = '';
