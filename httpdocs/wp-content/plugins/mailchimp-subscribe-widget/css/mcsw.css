@@ -1,0 +1,18 @@
+
+.mcsw_form .loader {
+    background: url(../img/spinner_dark.gif) 0 0 no-repeat;
+    height: 16px;
+    width: 16px;
+}
+
+.mcsw_form .control {
+    margin-bottom: 18px;
+}
+
+.mcsw_form .control .error {
+    color: #d43131;
+}
+
+.mcsw_form .hidden {
+    display: none !important;
+}

@@ -1,0 +1,457 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Minimalizine 0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-29 00:44+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Rizqy Hidayat <rizqy22@gmail.com>\n"
+"Language-Team: Rizqy Hidayat <rizqy22@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: /var/www/dev/wp-content/themes/minimalizine\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: archive.php:18
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: archive.php:21
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: archive.php:28
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: archive.php:36
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:39
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:42
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:45
+#: sidebar.php:19
+msgid "Archives"
+msgstr ""
+
+#: page.php:15
+#: image.php:40
+#: content.php:44
+#: content-single.php:44
+msgid "Edit"
+msgstr ""
+
+#: page.php:24
+#: image.php:89
+#: content.php:64
+#: content-single.php:58
+msgid "Pages:"
+msgstr ""
+
+#: searchform.php:8
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:9
+msgid "Search"
+msgstr ""
+
+#: image.php:21
+#, php-format
+msgid "<span class=\"posted-on\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span><span class=\"download-link\"><a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a></span><span class=\"gallery-link\"><a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a></span>"
+msgstr ""
+
+#: image.php:32
+#, php-format
+msgid "<span class=\"comments-link\"><a class=\"comment-link\" href=\"#respond\" title=\"Leave a comment\">Leave a comment</a> or <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">leave a trackback</a></span>"
+msgstr ""
+
+#: image.php:34
+#, php-format
+msgid "<span class=\"comments-link\"><a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Leave a trackback</a></span>"
+msgstr ""
+
+#: image.php:36
+msgid "<span class=\"comments-link\"><a class=\"comment-link\" href=\"#respond\" title=\"Leave a comment\">Leave a comment</a></span>"
+msgstr ""
+
+#: image.php:38
+msgid "<span class=\"comments-link\">Both comments and trackbacks are currently closed</span>"
+msgstr ""
+
+#: image.php:91
+msgid "More from this gallery"
+msgstr ""
+
+#: no-results.php:10
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:13
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:17
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: no-results.php:22
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: search.php:15
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: 404.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:18
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: footer.php:16
+#, php-format
+msgid "Proudly powered by <a href=\"http://wordpress.org/\" title=\"%1$s\" rel=\"generator\">%2$s</a><br/> Theme: Minimalizine by <a href=\"http://hirizh.name/\" title=\"%3$s\" rel=\"designer\">%4$s</a>"
+msgstr ""
+
+#: header.php:43
+msgid "Menu"
+msgstr ""
+
+#: header.php:44
+msgid "Skip to content"
+msgstr ""
+
+#: sidebar.php:30
+msgid "Meta"
+msgstr ""
+
+#: content.php:12
+#: content-single.php:12
+#, php-format
+msgid "All %s posts"
+msgstr ""
+
+#: content.php:22
+#: content.php:32
+#: content-single.php:22
+#: content-single.php:32
+msgid ", "
+msgstr ""
+
+#: content.php:41
+#: content-single.php:41
+msgid "Leave a comment"
+msgstr ""
+
+#: content.php:41
+#: content-single.php:41
+msgid "1 Comment"
+msgstr ""
+
+#: content.php:41
+#: content-single.php:41
+msgid "% Comments"
+msgstr ""
+
+#: content.php:48
+#: content.php:51
+#: content-single.php:51
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: content.php:62
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: functions.php:72
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:94
+msgid "Sidebar Left"
+msgstr ""
+
+#: functions.php:102
+msgid "Sidebar Middle"
+msgstr ""
+
+#: functions.php:110
+msgid "Sidebar Right"
+msgstr ""
+
+#: functions.php:131
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#: functions.php:182
+#, php-format
+msgid "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a>"
+msgstr ""
+
+#: functions.php:242
+#: functions.php:248
+msgid "Page"
+msgstr ""
+
+#: functions.php:265
+msgid "Untitled"
+msgstr ""
+
+#: functions.php:284
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:284
+#: functions.php:299
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:297
+#, php-format
+msgid "&middot; %1$s at %2$s &middot;"
+msgstr ""
+
+#: functions.php:301
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:344
+#, php-format
+msgid "&copy; Copyright %1$s <a href=\"%2$s\" title=\"%3$s\">%4$s</a>"
+msgstr ""
+
+#: comments.php:14
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:19
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:29
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:30
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: inc/customizer.php:27
+msgid "Customize Minimalizine"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Socials Settings"
+msgstr ""
+
+#: inc/customizer.php:62
+msgid "Facebook Username"
+msgstr ""
+
+#: inc/customizer.php:72
+msgid "Twitter Username"
+msgstr ""
+
+#: inc/customizer.php:82
+msgid "Google+ ID"
+msgstr ""
+
+#: inc/customizer.php:92
+msgid "Flickr Username"
+msgstr ""
+
+#: inc/customizer.php:102
+msgid "Linkedin Username"
+msgstr ""
+
+#: inc/customizer.php:112
+msgid "Pinterest Username"
+msgstr ""
+
+#: inc/customizer.php:122
+msgid "Dribbble Username"
+msgstr ""
+
+#: inc/customizer.php:132
+msgid "Github Username"
+msgstr ""
+
+#: inc/customizer.php:142
+msgid "Vimeo Username"
+msgstr ""
+
+#: inc/customizer.php:152
+msgid "Forrst Username"
+msgstr ""
+
+#: inc/customizer.php:162
+msgid "Zerply Username"
+msgstr ""
+
+#: inc/customizer.php:169
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer.php:178
+msgid "Footer text"
+msgstr ""
+
+#: inc/customizer.php:188
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/minimalizine-twitter.php:20
+msgid "Minimalizine Twitter widget"
+msgstr ""
+
+#: inc/minimalizine-twitter.php:23
+msgid "Minimalizine Twitter Widget"
+msgstr ""
+
+#: inc/minimalizine-twitter.php:40
+msgid "Loading..."
+msgstr ""
+
+#: inc/minimalizine-twitter.php:65
+msgid "Latest Tweets"
+msgstr ""
+
+#: inc/minimalizine-twitter.php:65
+msgid "Follow me on Twitter"
+msgstr ""
+
+#: inc/minimalizine-twitter.php:68
+#: inc/minimalizine-social-button.php:93
+msgid "Widget Title:"
+msgstr ""
+
+#: inc/minimalizine-twitter.php:72
+msgid "Twitter Username:"
+msgstr ""
+
+#: inc/minimalizine-twitter.php:76
+msgid "Tweets Count:"
+msgstr ""
+
+#: inc/minimalizine-twitter.php:80
+msgid "Follow Button Text:"
+msgstr ""
+
+#: inc/minimalizine-social-button.php:21
+msgid "Minimalizine social button Widget"
+msgstr ""
+
+#: inc/minimalizine-social-button.php:24
+msgid "Minimalizine Social Button"
+msgstr ""
+
+#: inc/minimalizine-social-button.php:90
+msgid "Social Media"
+msgstr ""
+
+#: inc/admin-page.php:15
+msgid "About Minimalizine"
+msgstr ""
+
+#: inc/admin-page.php:29
+msgid "About"
+msgstr ""
+
+#: inc/admin-page.php:30
+msgid "Minimalizine Premium"
+msgstr ""
+
+#: inc/admin-page.php:37
+msgid "Customizing"
+msgstr ""
+
+#: inc/admin-page.php:38
+#, php-format
+msgid "We dropped the theme options since version 0.4 and start using WordPress Theme Customizer. You can navigate to <a href=\"%1$s\">Customize Minimalizine</a> to start customizing, from colors, socials username, footer text, and others. Off course you can alse <a href=\"%2$s\">customize your header</a> and/or your <a href=\"%3$s\">background</a>."
+msgstr ""
+
+#: inc/admin-page.php:39
+msgid "Started this version, Minimalizine dropped support for meta verification and analytics js. They're plugin territory, so if you still need them, you can choose and install from numerous plugins at directory to bring them back in Minimalizine."
+msgstr ""
+
+#: inc/admin-page.php:40
+msgid "At last, We are so sorry if you loose your last options. Since Minimalizine now using Customizer, <strong>all settings are saved as theme mod, not standard options anymore</strong>."
+msgstr ""
+
+#: inc/admin-page.php:44
+msgid "Thank you for using Minimalizine :)"
+msgstr ""
+
+#: inc/admin-page.php:45
+#, php-format
+msgid "Minimalizine is made based on <a href=\"%1$s\">_s</a> (Underscores) theme by Automattic. Comes with simple and minimalist concept."
+msgstr ""
+
+#: inc/admin-page.php:46
+msgid "Simple and responsive WordPress theme. It's clean and good for you who wants focused on the content. It supports 3 widget areas above the footer, and packed with 10 social media buttons widget. Has an optional full-width and sitemap page template, also translation ready."
+msgstr ""
+
+#: inc/admin-page.php:47
+#, php-format
+msgid "If you have any problem or questions, you can post on <a href=\"%1$s\">Minimalizine theme support</a> or mention me <a href=\"%2$s\">@rizqyhi</a>. One more thing, don't forget to check <a href=\"%3$s\">Minimalizine on WordPress.com</a>."
+msgstr ""
+
+#: inc/admin-page.php:48
+#, php-format
+msgid "If you like Minimalizine and wanted to make it better, you can help by <a href=\"%1$s\">writing a review</a> and shine some stars, or <a href=\"%2$s\">buy the premium version</a>,  or <a href=\"%3$s\">buy me a coffee</a>. Thank you."
+msgstr ""
+
+#: inc/admin-page.php:52
+msgid "Thanks to"
+msgstr ""
+
+#: inc/admin-page.php:58
+msgid "for WordPress.com's version"
+msgstr ""
+
+#: inc/admin-page.php:64
+msgid "Upgrade to Minimalizine Premium"
+msgstr ""
+
+#: inc/admin-page.php:65
+msgid "We are working in it and hopefully we could release it soon. :)"
+msgstr ""
+
+#: page-templates/sitemap.php:25
+msgid "Last 20 Posts"
+msgstr ""
+
+#: page-templates/sitemap.php:33
+msgid "Pages"
+msgstr ""
+
+#: page-templates/sitemap.php:36
+msgid "Categories"
+msgstr ""
+
+#: page-templates/sitemap.php:42
+msgid "Tags"
+msgstr ""
+
