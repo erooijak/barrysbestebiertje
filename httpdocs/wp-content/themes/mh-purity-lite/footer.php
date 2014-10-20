@@ -19,7 +19,7 @@
 </footer>
 <?php } ?>
 <div class="copyright-wrap">
-	<p class="copyright"><?php echo 'Copyright &copy; ' . date("Y") . ' | <a href="http://www.mhthemes.com/" rel="nofollow">MH Purity <em>lite</em> WordPress Theme by MH Themes</a>'; ?>
+	<p class="copyright"><?php echo 'Copyright &copy; ' . date("Y") . ' | <a href="http://www.athousandcounts.com" rel="nofollow">MH Purity <em>lite</em> WordPress theme edit by A Thousand Counts</a>'; ?>
 </div>
 </div>
 <?php wp_footer(); ?>
