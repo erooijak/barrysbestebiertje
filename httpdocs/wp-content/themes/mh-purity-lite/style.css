@@ -26,9 +26,9 @@ table { border-collapse: collapse; border-spacing: 0; }
 html { font-size: 100%; -ms-text-size-adjust: none; -webkit-text-size-adjust: none; }
 body { font-family: 'Vollkorn', serif; font-size: 18px; font-size: 1.125rem; font-weight: 300; line-height: 1.4; word-wrap: break-word; color: #666; background: #fff; }
 .fullbg .custom-background { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-.container { width: 1020px; margin: 0 auto; position: relative; background: #fff; }
+.container { margin: 0 auto; position: relative; background: #fff; }
 .wrapper { padding: 20px 15px; }
-.content { max-width: 1020px; overflow: hidden; }
+.content { overflow: hidden; }
 .sidebar, .hp-sidebar { width: 310px; float: left; }
 .sb-right { margin-left: 30px; }
 .sb-left { margin-right: 30px; }
@@ -406,3 +406,6 @@ textarea { width: 96%; line-height: 1.5; padding: 5px; padding: 0.3125rem; borde
 @media screen and (max-width: 420px) {
 	.container { width: 99%; min-width: 240px; }
 }
+
+/***** CUSTOM *****/
+article:nth-child(even) { background: #CCC }
