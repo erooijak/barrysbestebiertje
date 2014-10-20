@@ -4,21 +4,22 @@ $excerpt_length = empty($options['excerpt_length']) ? '110' : $options['excerpt_
 $post_meta = isset($options['post_meta']) ? !$options['post_meta'] : true;
 ?>
 <article <?php post_class(); ?>>
-	<div class="loop-wrap clearfix">
-		<div class="loop-thumb">
-			<a href="<?php the_permalink(); ?>">
-				<?php if (has_post_thumbnail()) { the_post_thumbnail('featured'); } else { echo '<img src="' . get_template_directory_uri() . '/images/noimage_featured.png' . '" alt="No Picture" />'; } ?>
-			</a>
-		</div>
-		<header class="loop-data">
-			<?php if ($post_meta) { ?>
-				<div class="loop-meta">
-					<span class="loop-date"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php $post_date = get_the_date(); echo $post_date; ?></a></span>
-					<span class="loop-comments"><i class="fa fa-comment-o"></i><?php comments_number('0', '1', '%'); ?></span>
-				</div>
-			<?php } ?>
-			<h3 class="loop-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
-		</header>
-		<?php mh_excerpt($excerpt_length); ?>
+	<header class="post-header">
+		<h1 class="entry-title"><?php the_title(); ?></h1>
+		<p class="meta post-meta clearfix">
+			<span class="updated meta-date"><i class="fa fa-calendar"></i><?php echo get_the_date(); ?></span>
+			<span class="vcard author meta-author"><span class="fn"><i class="fa fa-user"></i><?php the_author_posts_link(); ?></span></span>
+			<span class="meta-tags"><i class="fa fa-tag"></i><?php the_category(', '); ?></span>
+			<span class="meta-comments"><i class="fa fa-comment-o"></i><?php comments_number('0', '1', '%'); ?></span>
+		</p>
+	</header>
+	<div class="entry clearfix">
+		<?php mh_featured_image(); ?>
+		<?php the_content(); ?>
 	</div>
+	<?php if (has_tag()) : ?>
+		<div class="post-tags meta clearfix">
+        	<?php the_tags('<p class="meta-tags"><i class="fa fa-tag"></i>', ', ', '</p>'); ?>
+        </div>
+	<?php endif; ?>
 </article>
