@@ -1,0 +1,276 @@
+/* @Admin Login -------------------------------------------------- */
+/* http://codex.wordpress.org/Customizing_the_Login_Form */
+
+html {
+	background: inherit;
+}
+
+body.login {}
+body.login div#login {}
+body.login div#login h1 {}
+body.login div#login h1 a {}
+body.login div#login form#loginform {}
+body.login div#login form#loginform p {}
+body.login div#login form#loginform p label {}
+body.login div#login form#loginform input {}
+body.login div#login form#loginform input#user_login {}
+body.login div#login form#loginform input#user_pass {}
+body.login div#login form#loginform p.forgetmenot {}
+body.login div#login form#loginform p.forgetmenot input#rememberme {}
+body.login div#login form#loginform p.submit {}
+body.login div#login form#loginform p.submit input#wp-submit {}
+body.login div#login p#nav {}
+body.login div#login p#nav a {}
+body.login div#login p#backtoblog {}
+body.login div#login p#backtoblog a {}
+
+
+/* login form
+ ******************************/
+.login {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+
+	background: white;
+}
+
+#login {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+/* login page links
+ ******************************/
+.login #login a {}
+.login #login a:hover {}
+
+
+/* login logo
+ ******************************/
+.login h1 {}
+.login h1 a {}
+
+
+/* login page primary button
+ ******************************/
+.login .button-primary {}
+.login .button-primary:hover {}
+
+#loginform {
+	margin-top: 0;
+	background: transparent;
+}
+
+#loginform,
+#lostpasswordform {
+	box-shadow: none;
+}
+#wp-submit {
+	border-radius: 0;
+	border: none;
+}
+
+
+/* login form labels
+ ******************************/
+.login label {}
+
+
+/* login txt & password inputs
+ ******************************/
+.login input {}
+.login form input[type="text"] {}
+.login form input[type="password"] {}
+
+
+/* login notification message
+ ******************************/
+.login.login-action-login .message {
+	border: none;
+	box-shadow: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%);
+	-webkit-animation: fadeSlide .3s forwards ease-in;
+	animation: fadeSlide .3s forwards ease-in;
+	text-align: center;
+	background: beige;
+	background: rgba(245, 245, 220, 0.79);
+	opacity: 0;
+}
+
+
+/* login error message
+ ******************************/
+.login #login  #login_error {
+	box-shadow: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%);
+	-webkit-animation: fadeSlide .3s forwards ease-in;
+	animation: fadeSlide .3s forwards ease-in;
+	text-align: center;
+	background: rgb(245, 45, 45);
+	background: rgba(255, 0, 0, 0.79);
+	color: whitesmoke;
+	opacity: 0;
+}
+
+a[href*="action=lostpassword"] {
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.29);
+	color: rgb(163, 6, 6);
+}
+
+a[href*="action=lostpassword"]:hover {
+	color: white;
+}
+
+
+/* login nav and back2blog links
+ ******************************/
+.login.login-action-login #nav {}
+
+.login.login-action-login #backtoblog {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+.login.login-action-lostpassword .message {
+	background: transparent;
+	box-shadow: none;
+	border-left: 0;
+	color: #928E8E;
+}
+
+#lostpasswordform {
+	margin-top: 0;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+#lostpasswordform #wp-submit {
+	width: 100%;
+}
+
+
+/* @Interim Login -------------------------------------------------- */
+/* This form runs on a timeout so once you log out from your site
+ * go back to the dashboard (don't refresh) and give it about 2mins.
+ * The form will appear as an overlay on top of the admin dashboard.
+ */
+
+.interim-login {
+	height: 100% !important;
+	background: transparent !important;
+}
+.interim-login.login form {
+	overflow: inherit !important;
+}
+
+.interim-login #login_error,
+.interim-login.login .message {}
+
+#wpwrap {}
+
+#wp-auth-check-wrap #wp-auth-check-bg {
+	background: #FCFEFF !important;
+	opacity: .95 !important;
+}
+#wp-auth-check-wrap #wp-auth-check {
+	box-shadow: none !important;
+	max-height: 100% !important;
+	max-width: 100% !important;
+	margin: 0 !important;
+	top: 0 !important;
+	left: 0 !important;
+	width: 100% !important;
+	bottom: 0 !important;
+	right: 0;
+	height: 100%;
+	padding: 0 !important;
+	background-color: transparent !important;
+}
+
+#wp-auth-check-wrap #wp-auth-check-form {
+	height: 100%;
+}
+
+
+/* @Admin Dashboard -------------------------------------------------- */
+
+body.wp-admin {}
+
+#adminmenu,
+#adminmenuback,
+#adminmenuwrap {}
+
+#adminmenu .wp-has-current-submenu .wp-submenu,
+#adminmenu .wp-has-current-submenu.opensub .wp-submenu,
+#adminmenu .wp-submenu,
+#adminmenu a.wp-has-current-submenu:focus+.wp-submenu,
+.folded #adminmenu .wp-has-current-submenu .wp-submenu {}
+
+#adminmenu ul {}
+#adminmenu2 ul {}
+
+div#wpwrap {}
+div#wpadminbar {}
+
+div#wpcontent {}
+div#wpbody div.wrap {}
+
+div#dashboard-widgets-wrap {}
+div.postbox-container {}
+
+div.postbox {}
+div.postbox.closed {}
+
+.button {}
+.button.action {}
+
+#zeitgeist {}
+#footer {}
+
+
+/* @CSS Utilities -------------------------------------------------- */
+
+@-webkit-keyframes fadeSlide {
+	to {
+		opacity:1;
+		-webkit-transform: translateY(0);
+	}
+}
+
+@keyframes fadeSlide {
+	to {
+		opacity:1;
+		transform: translateY(0);
+	}
+}

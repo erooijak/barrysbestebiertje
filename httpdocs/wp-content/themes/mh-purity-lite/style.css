@@ -28,7 +28,7 @@ body { font-family: 'Vollkorn', serif; font-size: 18px; font-size: 1.125rem; fon
 .fullbg .custom-background { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .container { width: 1020px; margin: 0 auto; position: relative; background: #fff; }
 .wrapper { padding: 20px 15px; }
-.content { width: 650px; overflow: hidden; }
+.content { max-width: 1020px; overflow: hidden; }
 .sidebar, .hp-sidebar { width: 310px; float: left; }
 .sb-right { margin-left: 30px; }
 .sb-left { margin-right: 30px; }

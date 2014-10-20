@@ -10,6 +10,5 @@
 		<?php endif; ?>
 		<?php mh_loop_content(); ?>
 	</section>
-	<?php get_sidebar(); ?>
 </div>
 <?php get_footer(); ?>
