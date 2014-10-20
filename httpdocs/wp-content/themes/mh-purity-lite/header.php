@@ -18,4 +18,5 @@
 	<nav class="main-nav clearfix">
 		<?php wp_nav_menu(array('theme_location' => 'main_nav')); ?>
 	</nav>
+<?php echo yksemeProcessSnippet( "1be7af81a2" , "Inschrijven" ); ?>
 </header>
